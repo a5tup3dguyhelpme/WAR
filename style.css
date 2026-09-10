@@ -1,0 +1,68 @@
+body {
+  background-image: url(https://i.postimg.cc/85k7dQBs/WARR.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;   
+  background-attachment: fixed;
+}
+
+
+
+div {
+  background-color: rgba(30, 32, 30, 0.85); 
+  overflow: auto;
+  padding: 30px; 
+  border-radius: 8px; 
+  max-width: 600px; 
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5); 
+  text-align: left;
+}
+
+
+h1 {
+  color: #FF4545;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  background-clip: text;
+   background: linear-gradient(
+      to bottom, 
+      #FF4545 0%, #FFD700 43%, 
+      transparent 43%, transparent 57%, 
+      #FFD700 57%, #FF4545 100%
+  );
+  
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+p, h2, h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  color: #FFFFFF;
+}
+
+.banner-war {
+  width: 100%;          
+  height: auto;         
+  border-radius: 4px;  
+  margin-bottom: 15px;  
+  display: block;
+}
+
+button {
+   background: linear-gradient(to right, #FF0000, #FFD700);
+  color: white;
+  padding: 10px 20px;
+  border: solid black;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
